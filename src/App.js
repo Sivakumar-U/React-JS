@@ -13,6 +13,8 @@ function App() {
       <Greet name="Siva" city="Tirupati">
         <p>This is children props</p>
       </Greet>
+
+      <Greet1 name="Jyothsna" city="Banglore"/>
       {/*<Counter/>
       <Messge />
       
@@ -21,7 +23,7 @@ function App() {
       </Greet>
       <Greet name="Reddy" city="Chennai"/>
 
-      <Greet1 name="Jyothsna" city="Banglore"/>
+      
       <Greet1 name="Priya" city="Hyderabad"/>
       <Greet1 name="Reddy" city="Chennai"/>
 
