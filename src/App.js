@@ -16,16 +16,18 @@ import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
 
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
-    
+      <FragmentDemo/>
       
+      {
+      /*<Counter/>
 
-      {/*<Counter/>
+      <LifecycleA/>
 
       <Form/>
 
@@ -59,7 +61,8 @@ function App() {
       <Greet1 name="Priya" city="Hyderabad"/>
       <Greet1 name="Reddy" city="Chennai"/>
 
-      {/*<Hello/>*/}
+      {/*<Hello/>*/
+      }
     </div>
   );
 }
