@@ -20,15 +20,18 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import MyPureComp from './components/MyPureComp';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <ParentComp/>
+      <RefsDemo/>
       
       
       {
       /*<Counter/>
+
+      <ParentComp/>
 
       <MyPureComp/>
 
