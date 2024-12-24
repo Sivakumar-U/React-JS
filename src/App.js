@@ -21,15 +21,18 @@ import Table from './components/Table';
 import MyPureComp from './components/MyPureComp';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo/>
+      <FocusInput/>
       
       
       {
       /*<Counter/>
+
+      <RefsDemo/>
 
       <ParentComp/>
 
