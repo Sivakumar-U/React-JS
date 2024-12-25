@@ -25,11 +25,13 @@ import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
       <ClickCounter/>
+      <HoverCounter/>
       
       {
       /*<Counter/>
