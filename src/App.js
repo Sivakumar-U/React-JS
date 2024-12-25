@@ -36,7 +36,7 @@ function App() {
       
       <ClickCounterTwo />
       <HoverCounterTwo />
-      <User name= {(isLoggedIn) => isLoggedIn ? "Siva" : "Guest"}/> 
+      <User render = {(isLoggedIn) => isLoggedIn ? "Siva" : "Guest"}/> 
       
       {
       /*<Counter/>
