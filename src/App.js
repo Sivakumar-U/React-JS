@@ -33,16 +33,19 @@ import Counter1 from './components/Counter1';
 import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/UserContext';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
     <div className="App">
 
-      <PostList/>
+      <PostForm/>
 
       {
 
       /*<Counter/>
+
+      <PostList/>
 
       <UserProvider value="Siva">
         <ComponentC/>
