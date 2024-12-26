@@ -32,18 +32,21 @@ import User from './components/User';
 import Counter1 from './components/Counter1';
 import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/UserContext';
+import PostList from './components/PostList';
 
 function App() {
   return (
     <div className="App">
 
-      <UserProvider value="Siva">
-        <ComponentC/>
-      </UserProvider>
+      <PostList/>
 
       {
 
       /*<Counter/>
+
+      <UserProvider value="Siva">
+        <ComponentC/>
+      </UserProvider>
 
       <Counter1
       render = {(Count, incrementCount) => (
